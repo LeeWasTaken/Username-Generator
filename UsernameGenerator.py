@@ -11,12 +11,17 @@ colorama_init()
 
 os.system('title Username Generator')
 
-print(f"{Fore.GREEN}------------------{Style.RESET_ALL}")
-print(f"{Fore.GREEN}Username Generator{Style.RESET_ALL}")
-print(f"{Fore.GREEN}------------------{Style.RESET_ALL}")
+print(f"{Fore.GREEN}---------------------------------------{Style.RESET_ALL}")
+print(f"{Fore.GREEN}Username Generator, Made By LeeWasTaken{Style.RESET_ALL}")
+print(f"{Fore.GREEN}---------------------------------------{Style.RESET_ALL}")
+
+print("  ")
 
 NOU =int (input ('Number Of Usernames You Want To Generate : '))
 NOL =int (input ('Number Of Letters You Want : '))
+
+print("  ")
+
 def Generate ():
     O0O000OOOO0OOO000 =''.join (random .choice (string .ascii_letters +string .digits )for O00O0O00OOO0000OO in range (NOL ))
     OO00O0OOO00OO000O =f"https://auth.roblox.com/v1/usernames/validate?request.username={O0O000OOOO0OOO000}&request.birthday=1982-08-08"
