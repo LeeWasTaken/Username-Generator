@@ -9,11 +9,11 @@ from colorama import Style
 
 colorama_init()
 
+os.system('title Username Generator')
+
 print(f"{Fore.GREEN}------------------{Style.RESET_ALL}")
 print(f"{Fore.GREEN}Username Generator{Style.RESET_ALL}")
 print(f"{Fore.GREEN}------------------{Style.RESET_ALL}")
-
-os.system('title Username Generator')
 
 NOU =int (input ('Number Of Usernames You Want To Generate : '))
 NOL =int (input ('Number Of Letters You Want : '))
